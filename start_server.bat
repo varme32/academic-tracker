@@ -1,0 +1,9 @@
+@echo off
+echo Installing dependencies...
+pip install -r requirements.txt
+
+echo Initializing database...
+python init_db.py
+
+echo Starting FastAPI server...
+python main.py
