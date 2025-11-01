@@ -9,4 +9,4 @@ python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 
 # Production WSGI server for Render
-gunicorn==22.1.0
+gunicorn==23.0.0
